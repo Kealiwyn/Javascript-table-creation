@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet260.css" rel="stylesheet" />
+    <title>DisplayChart</title>
+</head>
+<body>
+    <div class="mainDiv">
+        <h3 class="title">Please input columns and rows</h3>
+        <div class="posDiv">
+
+            <p></p>
+            <label for="Columns">Columns: <input type="Number" id="columns" name="columns" /></label>
+            <p></p>
+            <label for="Rows">Rows: <input type="Number" id="rows" name="rows" /></label>
+            <p></p>
+            <input type="button" value="Display Table" onclick="displayChart()" />
+            <hr />
+            <h6>&copy;COMP125-004 Patrick Labelle - 301162286</h6>
+        </div>
+    </div>
+    <div class="tableDiv">
+        <p id="displayTable"></p>
+    </div>
+    
+    <script src="JavaScript.js"></script>
+</body>
+</html>
